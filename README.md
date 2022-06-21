@@ -1,2 +1,2 @@
 # portfolio
-My portfolio showcasing my skills.
+A portfolio showcasing my skills.
