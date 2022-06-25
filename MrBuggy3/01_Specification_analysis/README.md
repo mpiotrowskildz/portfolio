@@ -1,5 +1,5 @@
 ## Specification analysis  
-Before anything else, I have analysed the requirements provided in the [official pdf file](http://mrbuggy.pl/mrbuggy3/dfiles/Specyfikacja_Mr_Buggy_3.pdf).  
+Before anything else, I analysed the requirements provided in the [official pdf file](http://mrbuggy.pl/mrbuggy3/dfiles/Specyfikacja_Mr_Buggy_3.pdf).  
 The following are the problems, inaccuracies or errors that I have found.
 
 Id| Page no | The mistake/uncertainty | My comment
