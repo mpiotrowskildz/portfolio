@@ -12,7 +12,7 @@ The following served as a test basis that allowed me to create test conditions a
 7. The client app has to allow the users to find one defect in each exercise/task and report it.
 8. The exercises/tasks
 8. The client app needs to generate an event log.
-9. All exercises/tasks have to be implented in the app.
+9. All exercises/tasks have to be implemented in the app.
 10. The exercises/tasks need to include functional or security defects.
 11. The exercises/tasks have to be shown in a random order
 11. The client app has to work in two modes:
@@ -43,7 +43,7 @@ The following served as a test basis that allowed me to create test conditions a
     * keep the scoreboard divided into team and individual scores;
     * automatically check the reported defects;
     * allow the jury to manually change the score;
-    * show the general rank on a seperate monitor;
+    * show the general rank on a separate monitor;
     * allow for generating an overall report that includes the user's position in the rank, the name of the user and its team, the number of points given for each task/exercise done by each member and team and the sum of points scored by each team member and the whole team;  
 29. Log all events (i.e. [un]successfully received report, or correctly reviewed report) in the server log.
 30. The interface's response time should be shorter than 1 sec.
@@ -52,7 +52,7 @@ The following served as a test basis that allowed me to create test conditions a
 33. The client app cannot use more than 100MB of RAM.
 33. The server app needs to be able to receive 50 reports at once.
 34. The access to both the server and client apps needs to be login and password protected. 
-35. Each user of the app has to have a seperate login which consists of 4-8 characters (at least one lowercase letter, one uppercase letter, one number 0-9 and one special character).
+35. Each user of the app has to have a separate login which consists of 4-8 characters (at least one lowercase letter, one uppercase letter, one number 0-9 and one special character).
 36. The login cannot include white-space characters and/or Polish diacritics.
 36. The password should contain at least 4 characters (at least one lowercase letter, one uppercase letter, one number 0-9 and one special character).
 37. The password cannot include white-space characters and/or Polish diacritics.
