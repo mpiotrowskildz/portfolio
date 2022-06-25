@@ -10,11 +10,10 @@ The following served as a test basis that allowed me to create test conditions a
    * Windows 7 - the server app.
 6. The client app has to deliver data to the server app in the form of a text file, either directly via the app, or by being exported from the client app and then imported by the server app.
 7. The client app has to allow the users to find one defect in each exercise/task and report it.
-8. The exercises/tasks
 8. The client app needs to generate an event log.
 9. All exercises/tasks have to be implented in the app.
-10. The exercises/tasks need to include functional or security defects.
-11. The exercises/tasks have to be shown in a random order
+10. The exercises/tasks need to include functional, usability or security defects.
+11. The exercises/tasks have to be shown in a random order.
 11. The client app has to work in two modes:
     * team: captain and team member modes;
     * individual: player mode.
