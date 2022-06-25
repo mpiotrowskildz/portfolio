@@ -53,14 +53,14 @@ The following served as a test basis that allowed me to create test conditions a
 33. The server app needs to be able to receive 50 reports at once.
 34. The access to both the server app needs to be login and password protected. 
 35. The users of the client app can either create accounts or use the app in the guest mode.
-35. Each user of the server app has to have a separate login which consists of 4-8 characters (at least one lowercase letter, one uppercase letter, one number 0-9 and one special character).
+35. Each user of the server app has to have a separate login which consists of 4-8 characters (at least one lowercase letter, one uppercase letter, one digit 0-9 and one special character).
 36. The login to the server app cannot include white-space characters and/or Polish diacritics).
-37. The password to the server app has to contain at least 4 characters (at least one lowercase letter, one uppercase letter, one number 0-9 and one special character).
+37. The password to the server app has to contain at least 4 characters (at least one lowercase letter, one uppercase letter, one digit 0-9 and one special character).
 38. The password cannot include white-space characters and/or Polish diacritics).
 39. Every user of the client app that chooses to create an account has to create a username, provide their e-mail address and set a password.
-40. The username in the client app cannot exceed 100 characters (white-space characters, Polish diacritics and special characters in the Latin alphabet are allowed).
+40. The username in the client app cannot exceed 100 characters (white-space characters, Polish diacritics and other special characters found on the keyboard are allowed).
 41. The password in the client app cannot exceed 15 characters.
-42. The password to the client app has to contain at least 4 characters (at least one lowercase letter, one uppercase letter, one number 0-9 and one special character).
+42. The password to the client app has to contain at least 4 characters (at least one lowercase letter, one uppercase letter, one digit 0-9 and one of the following special characters: !@#$%^&*
 43. The password cannot include white-space characters and/or Polish diacritics).
 44. There needs to be a procedure of creating, restoring and unlocking an account.
 45. There needs to be a procedure of changing the password.
