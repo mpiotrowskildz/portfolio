@@ -1,4 +1,5 @@
 ## Creating requirements for the app
+The following served as a test basis that allowed me to create test conditions and test cases as a result.
 1. The app consists of the client app and the server app.
 1. There need to be **three** versions of the client app: demo, final and public.
 2. The demo includes only one task, different from the tasks available in the final and public versions.
@@ -38,12 +39,12 @@
 23. "Zakończ" button has to export all the answers to the server/a text file. This action cannot be undone and can be done only once. This action needs to be confirmed in a separate message.
 24. The server app has to be accessed by the command line or a GUI and is dedicated only to the jury of the tournament.
 25. The server app has to:  
-   * fetch reports of all the teams and users;
-   * keep the scoreboard divided into team and individual scores;
-   * automatically check the reported defects;
-   * allow the jury to manually change the score;
-   * show the general rank on a seperate monitor; 
-   * allow for generating an overall report that includes the user's position in the rank, the name of the user and its team, the number of points given for each task/exercise done by each member and team and the sum of points scored by each team member and the whole team;  
+    * fetch reports of all the teams and users;
+    * keep the scoreboard divided into team and individual scores;
+    * automatically check the reported defects;
+    * allow the jury to manually change the score;
+    * show the general rank on a seperate monitor;
+    * allow for generating an overall report that includes the user's position in the rank, the name of the user and its team, the number of points given for each task/exercise done by each member and team and the sum of points scored by each team member and the whole team;  
 29. Log all events (i.e. [un]successfully received report, or correctly reviewed report) in the server log.
 30. The interface's response time should be shorter than 1 sec.
 31. The general report should be generated under 15 sec.
@@ -58,13 +59,13 @@
 35. There needs to be a procedure of creating, restoring and unlocking an account.
 36. There needs to be a procedure of changing the password.
 37. The account needs to be blocked after three attempts of entering the wrong password.
-38. The server app has to be create a backup of the general report.
-39. MrBuggy3 must be a portable app in a zip archive. The archive has to include the exe file and all the necessary libraries and resources.
+38. The server app has be create a backup of the general report.
+39. MrBuggy3 must be a portable app in a zip archive. The archive has to include the exe file and all the necessary libraries and resources to run it.
 40. The demo app should include one of the two possible tasks/exercises: 
-   * A calculator that can only divide. The defect is that it divides by 0 and shows 0 as the result.
-   * A function that checks if two rectangles intersect and then showing the information. The defect is a wrong information saying that the rectangles do not intersect when one of them completely covers the other.
+    * A calculator that can only divide. The defect is that it divides by 0 and shows 0 as the result.
+    * A function that checks if two rectangles intersect and then showing the information. The defect is a wrong information saying that the rectangles do not intersect when one of them completely covers the other.
 46. The defects are scored according to their severity:
-   * trivial defects (1-2 points);
-   * normal defects (3-4 points);
-   * critical defects (4-6 points).
+    * trivial defects (1-2 points);
+    * normal defects (3-4 points);
+    * critical defects (4-6 points).
 47. The app deducts 2 points for reporting a correct functionality.
