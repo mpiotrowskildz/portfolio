@@ -11,6 +11,7 @@ C1|Correct registration|The app is opened, the registration form is opened|1|Cli
  | | | |6|Click "Rejestruj"|Creates a new account, a confirmation e-mail is sent to the given address and the user is informed about these actions.
 C2|Correct 'Regulamin' link action|The app is opened and the option 'Rejestracja' is chosen.|1|Click the link 'Regulamin'|Your browser opens up [http://3.mrbuggy.pl/index/terms_of_use.](http://3.mrbuggy.pl/index/terms_of_use).
 
-While C2 passed, there was an error in C1, step 4 - there were too few characters as the app requires 6 characters, so the test failed. It was decided that 6 characters are much safer and instead of changing the app, the documentation was amended.  
+While C2 passed, there was an error in C1, step 4 - there were too few characters as the app requires 6 characters, so the test failed. It was decided that 6 characters are much safer and instead of changing the app, the documentation was amended.
+Further test cases were created and you can find them in RegistrationTC.csv
 
 ## More to come soon!
