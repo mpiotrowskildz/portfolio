@@ -56,6 +56,6 @@ C11;Using a blank username;The app is opened;Medium;1;Click 'Rejestracja'.;
 C12;Using more than 100 characters in the username;The app is opened;Medium;1;Click 'Rejestracja'.;
 ;;;;2;Enter a username using more than 100 characters.;
 ;;;;3;Enter an email address;
-;;;;4;"Enter a password that consists of 6 characters, at least one uppercase, one lowercase and one number. Use other signs restricted to the following: !@#$%^&amp;*";
+;;;;4;Enter a password that consists of 6 characters, at least one uppercase, one lowercase and one number. Use other signs restricted to the following: !@#$%^&amp;*;
 ;;;;5;Tick the checkbox.;
 ;;;;6;Click 'Rejestruj';You are informed that the [Nazwa użytkownika] has insufficient number of characters.
