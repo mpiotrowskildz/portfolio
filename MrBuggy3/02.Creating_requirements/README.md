@@ -59,18 +59,19 @@ The following served as a test basis that allowed me to create test conditions a
 39. Every user of the client app that chooses to create an account has to create a username, provide their e-mail address and set a password.
 40. The username in the client app cannot exceed 100 characters (white-space characters, Polish diacritics and other special characters found on the keyboard are allowed).
 41. The password in the client app cannot exceed 15 characters.
-42. The password to the client app has to contain at least 4 characters (at least one lowercase letter, one uppercase letter, one digit 0-9 and one of the following special characters: !@#$%^&*
-43. The password cannot include white-space characters and/or Polish diacritics).
-44. There needs to be a procedure of creating, restoring and unlocking an account.
-45. There needs to be a procedure of changing the password.
-46. The account needs to be blocked after three attempts of entering the wrong password.
-47. The server app has be create a backup of the general report.
-48. MrBuggy3 must be a portable app in a zip archive. The archive has to include the exe file and all the necessary libraries and resources to run it.
-49. The demo app should include one of the two possible tasks/exercises: 
+42. The password to the client app has to contain at least 6 characters (at least one lowercase letter, one uppercase letter, one digit 0-9).
+43. The password can include one of the following special characters: !@#$%^&*
+44. The password cannot include white-space characters and/or Polish diacritics).
+45. There needs to be a procedure of creating, restoring and unlocking an account.
+46. There needs to be a procedure of changing the password.
+47. The account needs to be blocked after three attempts of entering the wrong password.
+48. The server app has be create a backup of the general report.
+49. MrBuggy3 must be a portable app in a zip archive. The archive has to include the exe file and all the necessary libraries and resources to run it.
+50. The demo app should include one of the two possible tasks/exercises: 
     * A calculator that can only divide. The defect is that it divides by 0 and shows 0 as the result.
     * A function that checks if two rectangles intersect and then showing the information. The defect is a wrong information saying that the rectangles do not intersect when one of them completely covers the other.
-50. The defects are scored according to their severity:
+51. The defects are scored according to their severity:
     * trivial defects (1-2 points);
     * normal defects (3-4 points);
     * critical defects (4-6 points).
-51. The app deducts 2 points for reporting a correct functionality.
+52. The app deducts 2 points for reporting a correct functionality.
